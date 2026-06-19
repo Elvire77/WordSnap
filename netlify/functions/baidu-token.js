@@ -3,7 +3,6 @@ const BAIDU_API_KEY = 'SDtrviOdKf2z6R6ISd2Z5aw0'
 const BAIDU_SECRET_KEY = 'RCez7uIWZCnP6tDsgg0FBvrw8kDCKV2Z'
 
 exports.handler = async (event, context) => {
-  // CORS 头
   const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type',
