@@ -1,9 +1,9 @@
 /**
  * 物体识别服务 - 使用百度图像识别 API
- * 通过 Vercel Serverless Function 代理，解决 CORS 问题
+ * 通过 Netlify Functions 代理，解决 CORS 问题
  */
 
-const API_BASE = '/api'
+const API_BASE = '/.netlify/functions'
 
 /**
  * 获取 Access Token（通过服务端代理）
