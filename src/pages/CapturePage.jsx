@@ -15,7 +15,7 @@ export default function CapturePage() {
 
   // 检查单词是否已收藏
   const isWordCollected = (word) => {
-    return collections.some(c => c.words.some(w => w.word.toLowerCase() === word.toLowerCase()))
+    return collections.some(c => c.words.some(w => w.word.toLowerCase() === word.toLowerCase())
   }
 
   const handleFileChange = async (e) => {
